@@ -1,0 +1,72 @@
+﻿@model Course
+@{
+    ViewBag.Title = "Manage Course - " + Model.Title;
+}
+
+<h2>@Model.Title</h2>
+<p>@Model.Description</p>
+
+<hr />
+<h4>Lessons</h4>
+<a asp-action="AddLesson" asp-route-id="@Model.CourseID" class="btn btn-primary mb-2">+ Add Lesson</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Submissions</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lesson in Model.Lessons)
+        {
+            <tr>
+                <td>@lesson.Title</td>
+                <td>@lesson.Submissions.Count</td>
+                <td>
+                    <a asp-action="LessonSubmissions" asp-route-id="@lesson.LessonID" class="btn btn-sm btn-info">View Submissions</a>
+                    <a asp-action="EditLesson" asp-route-id="@lesson.LessonID" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="DeleteLesson" asp-route-id="@lesson.LessonID" class="btn btn-sm btn-danger">Delete</a>
+                     
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+<table id="studentsTable" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enrollment in Model.Enrollments)
+        {
+            <tr>
+                <td>@enrollment.User.FullName</td>
+                <td>@enrollment.User.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#studentsTable').DataTable({
+                paging: true,
+                pageLength: 5,
+                lengthChange: false,
+                ordering: true,
+                info: false,
+                language: {
+                    search: "Search students:"
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,25 @@
+﻿@model Lesson
+
+@{
+    ViewBag.Title = "Edit Lesson";
+}
+
+<h2>Edit Lesson</h2>
+
+<form asp-action="EditLesson" method="post">
+    <input type="hidden" asp-for="LessonID" />
+    <input type="hidden" asp-for="CourseID" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control" rows="5"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Manage" asp-route-id="@Model.CourseID" class="btn btn-secondary">Cancel</a>
+</form>

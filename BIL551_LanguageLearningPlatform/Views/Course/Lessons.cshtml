@@ -1,0 +1,27 @@
+﻿@model List<Lesson>
+
+@{
+    ViewBag.Title = "Lessons for " + ViewBag.CourseTitle;
+}
+
+<h2>Lessons for @ViewBag.CourseTitle</h2>
+
+<a asp-action="AddLesson" asp-route-id="@ViewBag.CourseID" class="btn btn-primary">Add Lesson</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lesson in Model)
+        {
+            <tr>
+                <td>@lesson.Title</td>
+                <td>@lesson.Content</td>
+            </tr>
+        }
+    </tbody>
+</table>

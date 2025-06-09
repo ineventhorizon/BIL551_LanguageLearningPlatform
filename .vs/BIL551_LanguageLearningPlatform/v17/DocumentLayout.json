@@ -1,0 +1,402 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\migrations\\20250524123814_initialfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\migrations\\20250524123814_initialfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\student\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\student\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\lessons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\lessons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\student\\myenrollments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\student\\myenrollments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\student\\viewcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\student\\viewcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\editlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\editlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\viewmodels\\coursedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\viewmodels\\coursedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\student\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\student\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|c:\\users\\yusuf\\source\\repos\\bil551_languagelearningplatform\\bil551_languagelearningplatform\\views\\course\\addlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7F0B32-787D-49B7-8DB1-3D352630C7E1}|BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform.csproj|solutionrelative:bil551_languagelearningplatform\\views\\course\\addlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 236,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250524123814_InitialFixed.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Migrations\\20250524123814_InitialFixed.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Migrations\\20250524123814_InitialFixed.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Migrations\\20250524123814_InitialFixed.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Migrations\\20250524123814_InitialFixed.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAmwM8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:54:00.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAmwBsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:53:47.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Courses.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\Courses.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Student\\Courses.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\Courses.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Student\\Courses.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:04:11.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:57:10.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditLesson.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\EditLesson.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\EditLesson.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\EditLesson.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\EditLesson.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T12:34:48.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\ViewCourse.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Student\\ViewCourse.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\ViewCourse.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Student\\ViewCourse.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:39:13.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Manage.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\Manage.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Manage.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\Manage.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAcwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T12:30:00.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\MyCourses.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\MyCourses.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\MyCourses.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\MyCourses.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:46:09.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyEnrollments.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\MyEnrollments.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Student\\MyEnrollments.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\MyEnrollments.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Student\\MyEnrollments.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:03:59.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Models\\Lesson.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Models\\Lesson.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Models\\Lesson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:39:54.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Models\\Course.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:40:07.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lessons.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Lessons.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\Lessons.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Lessons.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\Lessons.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T12:31:00.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:01:07.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAADwv7cAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:58:58.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T12:36:11.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwDgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:20:10.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:27:54.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:28:42.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:30:23.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:33:11.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CourseDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\ViewModels\\CourseDetailViewModel.cs",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\ViewModels\\CourseDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\ViewModels\\CourseDetailViewModel.cs",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\ViewModels\\CourseDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:00:24.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Submit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\Submit.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Student\\Submit.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Student\\Submit.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Student\\Submit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:59:44.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddLesson.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\AddLesson.cshtml",
+              "RelativeDocumentMoniker": "BIL551_LanguageLearningPlatform\\Views\\Course\\AddLesson.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\BIL551_LanguageLearningPlatform\\BIL551_LanguageLearningPlatform\\Views\\Course\\AddLesson.cshtml",
+              "RelativeToolTip": "BIL551_LanguageLearningPlatform\\Views\\Course\\AddLesson.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:54:08.351Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿@model Submission
+
+<form asp-action="Submit" method="post">
+    <input type="hidden" asp-for="LessonID" />
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

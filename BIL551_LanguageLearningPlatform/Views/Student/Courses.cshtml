@@ -1,0 +1,69 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "All Courses";
+    var enrolledCourses = ViewBag.EnrolledCourseIds as HashSet<int>;
+}
+
+<h2>Available Courses</h2>
+
+<table id="coursesTable" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Course Title</th>
+            <th>Language</th>
+            <th>Teacher</th>
+            <th>Total Lessons</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            bool isEnrolled = enrolledCourses != null && enrolledCourses.Contains(course.CourseID);
+            <tr>
+                <td>
+                    <a asp-controller="Student" asp-action="ViewCourse" asp-route-id="@course.CourseID">
+                        @course.Title
+                    </a>
+                </td>
+                <td>@course.Language?.Name</td>
+                <td>@course.Teacher?.FullName</td>
+                <td>@course.Lessons?.Count</td>
+                <td>
+                    <a asp-controller="Student" asp-action="ViewCourse" asp-route-id="@course.CourseID" class="btn btn-primary btn-sm">
+                        View Lessons
+                    </a>
+
+                    @if (!isEnrolled)
+                    {
+                        <form asp-controller="Student" asp-action="Enroll" method="post" class="d-inline">
+                            <input type="hidden" name="courseId" value="@course.CourseID" />
+                            <button type="submit" class="btn btn-success btn-sm">Enroll</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Enrolled</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#coursesTable').DataTable({
+                paging: true,
+                pageLength: 5,
+                lengthChange: false,
+                ordering: true,
+                info: false,
+                language: {
+                    search: "Search courses:"
+                }
+            });
+        });
+    </script>
+}

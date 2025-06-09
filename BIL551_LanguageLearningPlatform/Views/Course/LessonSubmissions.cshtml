@@ -1,0 +1,23 @@
+﻿@model Lesson
+
+<h2>Submissions for @Model.Title</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Content</th>
+            <th>Submitted At</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var submission in Model.Submissions)
+        {
+            <tr>
+                <td>@submission.User.FullName</td>
+                <td>@submission.Content</td>
+                <td>@submission.SubmittedAt.ToString("g")</td>
+            </tr>
+        }
+    </tbody>
+</table>

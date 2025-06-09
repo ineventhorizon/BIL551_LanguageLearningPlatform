@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    ViewData["Title"] = "Home Page";
+    var role = ViewData["Role"]?.ToString();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p class="lead">Build your future with our learning platform.</p>
+</div>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+
+        @if (role == "Student")
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Browse Courses</h5>
+                        <p class="card-text">Explore new subjects and start learning today.</p>
+                        <a asp-controller="Student" asp-action="Courses" class="btn btn-primary">View Courses</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">My Enrollments</h5>
+                        <p class="card-text">Manage and view your current course enrollments.</p>
+                        <a asp-controller="Student" asp-action="MyEnrollments" class="btn btn-secondary">Go to My Courses</a>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (role == "Teacher")
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">My Courses</h5>
+                        <p class="card-text">Create and manage your courses.</p>
+                        <a asp-controller="Course" asp-action="MyCourses" class="btn btn-primary">Manage Courses</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Create New</h5>
+                        <p class="card-text">Create a new course.</p>
+                        <a asp-controller="Course" asp-action="Create" class="btn btn-primary">Create New</a>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Join Us</h5>
+                        <p class="card-text">Login or register to start your learning journey.</p>
+                        <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary">Login</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

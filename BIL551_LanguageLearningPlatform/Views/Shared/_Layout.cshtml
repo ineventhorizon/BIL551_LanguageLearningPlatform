@@ -1,0 +1,137 @@
+﻿@{
+    var userId = Context.Session.GetInt32("UserID");
+    var role = Context.Session.GetString("Role");
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BIL551_LanguageLearningPlatform</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BIL551_LanguageLearningPlatform.styles.css" asp-append-version="true" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Bundle JS (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+@{
+    var message = TempData["EnrollMessage"] as string;
+    var type = TempData["MessageType"] as string ?? "info"; // default to info
+    var bgColorClass = type switch
+    {
+        "success" => "bg-success text-white",
+        "danger" => "bg-danger text-white",
+        "info" => "bg-info text-dark",
+        "warning" => "bg-warning text-dark",
+        _ => "bg-secondary text-white"
+    };
+}
+
+@if (message != null)
+{
+    <div aria-live="polite" aria-atomic="true" class="position-relative">
+        <div id="enrollToastContainer" class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div class="toast align-items-center @bgColorClass border-0 show" role="alert" aria-live="assertive" aria-atomic="true" id="enrollToast">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @message
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">
+                    BIL551 Platform
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        @if (userId == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                        }
+                        else
+                        {
+                            if (role == "Teacher")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Course" asp-action="Create">Create Course</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Course" asp-action="MyCourses">My Courses</a>
+                                </li>
+                            }
+                            else if (role == "Student")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Student" asp-action="Courses">Available Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Student" asp-action="MyEnrollments">My Enrollments</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a>
+                            </li>
+                        }
+                    </ul>
+
+                    @if (userId != null)
+                    {
+                        <span class="navbar-text text-white ms-auto">
+                            👋 Hello, @Context.Session.GetString("FullName")!
+                        </span>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <main role="main" class="pb-5">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-light border-top py-3 mt-auto">
+        <div class="container text-center text-muted">
+            &copy; 2025 - BIL551 Language Learning Platform -
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

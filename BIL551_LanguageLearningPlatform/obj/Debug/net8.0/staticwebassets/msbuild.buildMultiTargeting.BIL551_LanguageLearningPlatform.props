@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BIL551_LanguageLearningPlatform.props" />
+</Project>
